@@ -11,6 +11,14 @@ export class AppComponent {
 
   isChecked = true;
 
+  color = 2
+
+  colors: any[] = [
+    { id: 1, name: 'Red' },
+    { id: 2, name: 'Green' },
+    { id: 3, name: 'Blue' },
+  ];
+
   // onChange($event: MatRadioModule) {
   //   console.log($event);
 
