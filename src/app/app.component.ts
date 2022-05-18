@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatCheckboxModule } from '@angular/material/checkbox';
+// import { MatRadioModule } from './material.module';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +11,8 @@ export class AppComponent {
 
   isChecked = true;
 
-  onChange($event: MatCheckboxModule) {
-    console.log($event);
+  // onChange($event: MatRadioModule) {
+  //   console.log($event);
 
-  }
+  // }
 } 

@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
-import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioButton, MatRadioModule } from '@angular/material/radio';
+import { MatCheckboxModule } from "@angular/material/checkbox"
 
 import { AppComponent } from './app.component';
 
@@ -15,6 +16,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatRadioModule,
     MatCheckboxModule
   ],
   providers: [],
